@@ -1,0 +1,379 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+.navBar{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+ 
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+.button a{
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* button plans */
+#plans{
+    color: #be0725;
+    
+}
+
+.button{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#titleDesc {
+    padding: 15px 0px 15px 0px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: orange;
+    color: white;
+    margin: 0% 0% 2% 0%;
+    border-radius: 0px 0px 30px 30px;
+}
+
+/* DROP BOX */
+.drop-content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 2.8%;
+    padding-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+  }
+  
+  .drop-content a{
+    /* padding-top: 30px; */
+    width: 140px;
+    padding: 10px 10px 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .drop-content a:hover{
+    background-color: #be0725;
+    color: white;
+  }
+  #bar1{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  .hover-me{
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    padding-top: 20%;
+  }
+  
+  .down{
+    font-family: Arial;
+  }
+  /* INI YANG BIKIN DROP */
+  .down:hover .drop-content{
+    display: flex;
+    flex-direction: column;
+  }
+  /* DROP BOX END ===========================*/
+
+.content{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100%;
+    background-color: white;
+    /* background-image: url('assets/bg-plans.jpg'); */
+}
+
+
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    /* background-color: white;
+    margin: 0% 13%; */
+}
+
+.diamondPromo{
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 5px lightgray;
+    color: black;
+}
+
+.goldPromo{
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 5px lightgray;
+    color: black;
+}
+
+.silverPromo{
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 5px lightgray;
+    color: black;
+}
+
+.diamondPromo:hover{
+    color: black;
+    background-color: lightskyblue;
+}
+
+.goldPromo:hover{
+    color: black;
+    background-color: gold;
+}
+
+.silverPromo:hover{
+    color: black;
+    background-color: gainsboro;
+}
+
+#silver {
+    animation: animateSilver 1s ease-in-out infinite alternate;
+}
+
+#gold {
+    animation: animateGold 1s ease-in-out infinite alternate;
+}
+
+#diamond {
+    animation: animateDiamond 1s ease-in-out infinite alternate;
+}
+
+@keyframes animateDiamond{
+    from{
+        text-shadow: 0 0 20px lightskyblue;
+    }
+    to{
+        text-shadow: 0 0 30px lightskyblue,
+                    0 0 10px lightskyblue;
+    }
+}
+
+@keyframes animateGold{
+    from{
+        text-shadow: 0 0 20px rgba(243, 227, 7, 0.836);
+    }
+    to{
+        text-shadow: 0 0 30px rgba(243, 227, 7, 0.836),
+                    0 0 10px rgba(243, 227, 7, 0.836);
+    }
+}
+@keyframes animateSilver{
+    from{
+        text-shadow: 0 0 20px grey;
+    }
+    to{
+        text-shadow: 0 0 30px grey,
+                    0 0 10px grey;
+    }
+}
+
+.diamondPromo img{
+    width: 100px;
+    height: 100px;
+}
+
+.diamondPromo p{
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: left;
+}
+
+.diamondPromo h5{
+    margin-bottom: 0%;
+}
+
+.goldPromo img{
+    width: 100px;
+    height: 100px;
+}
+
+.goldPromo p{
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: left;
+}
+
+.goldPromo h5{
+    margin-bottom: 0%;
+}
+
+.silverPromo img{
+    width: 100px;
+    height: 100px;
+}
+
+.silverPromo p{
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: left;
+}
+
+.silverPromo h5{
+    margin-bottom: 0%;
+}
+
+.subscribe{
+    font-family: Arial;
+    font-size: 40px;
+    display: flex;
+    color: #be0725;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;    
+}
+
+.subscribe a{
+    background-color: #be0725;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    border: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.subscribe a:hover{
+    background-color: white;
+    border: #be0725;
+    border-width: 5px;
+    border-style: solid;
+    color: #be0725;
+}
+
+.content h2{
+    padding-bottom: 40px;
+    margin: 0%;
+    color: white;
+    align-self: center;
+    background-color: orange;
+    border: 2px solid orange;
+    /* margin: 0% 14%; */
+
+}
+
+.subscribe p{
+    margin-bottom: 20px;
+    color: black;
+    text-shadow:  0px 10px 8px lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sosmed{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ig img{
+    width: 150px;
+    height: 120px;
+}
+
+.fb img{
+    width: 75px;
+    height: 75px;
+}
+
+
+.content h2{
+    /* margin-bottom: 4%; */
+    padding-top: 50px;
+    padding-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: white;
+    text-shadow:  1px 1px 1px black,
+    1px 2px 1px black,
+    1px 3px 1px black,
+    1px 4px 1px black,
+    1px 5px 1px black,
+    1px 6px 1px black,
+    1px 7px 1px black,
+    1px 8px 1px black,
+    1px 9px 1px black
+    /* 1px 10px 1px grey,
+    1px 18px 6px grey,
+    1px 22px 10px grey,
+    1px 25px 35px grey,
+    1px 30px 60px grey; */
+}
+
+@media only screen and (max-width:900px){
+    .button{
+        display: none;
+    }
+    .founder h1{
+        font-size: larger;
+    }
+    .address h1{
+        font-size: larger;
+    }
+    .content h2{
+        font-size: 55px;
+    }
+    #titleDesc{
+        font-size: medium;
+    }
+    .content p{
+        font-size: medium;
+    }
+    .plans h4, .plans h5{
+        font-size: 25px;
+    }
+    .subscribe p{
+        font-size: 28px;
+    }
+    .subscribe a{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,487 @@
+body{
+    margin: 0%;
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+ 
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+.button a{
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* DROP BOX */
+.drop-content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 2.8%;
+    padding-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+  }
+  
+  .drop-content a{
+    /* padding-top: 30px; */
+    width: 140px;
+    padding: 10px 10px 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .drop-content a:hover{
+    background-color: #be0725;
+    color: white;
+  }
+  #bar1{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  .hover-me{
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    padding-top: 20%;
+  }
+  
+  .down{
+    font-family: Arial;
+  }
+  /* INI YANG BIKIN DROP */
+  .down:hover .drop-content{
+    display: flex;
+    flex-direction: column;
+  }
+  /* DROP BOX END ===========================*/
+
+#about{
+    color: #be0725;
+}
+
+.about1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-shadow:  1px 1px 1px white,
+    1px 2px 1px white,
+    1px 3px 1px white,
+    1px 4px 1px white,
+    1px 5px 1px white,
+    1px 6px 1px white,
+    1px 7px 1px white,
+    1px 8px 1px white,
+    1px 9px 1px white,
+    1px 10px 1px grey,
+    1px 18px 6px grey,
+    1px 22px 10px grey,
+    1px 25px 35px grey,
+    1px 30px 60px grey; */
+}
+
+.button{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr{
+    margin: 0%;
+    height: 7px;
+    background-color: #be0725;
+    border: none;
+}
+
+.company{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding:100px;
+}
+
+.about{
+    background-color: white;
+    padding-top: 30px;
+    font-size: 50px;
+    color: black;
+}
+
+#picCinema img{ 
+    margin-left: 20%;
+}
+#picBuilding img{
+    padding-top: 10px;
+    padding-left: 70%;
+}
+
+
+.desc{
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 27px;
+    padding: 5px 11%;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.team{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    /* padding: 5px 0px; */
+    background-color: black;
+}
+
+.team p{
+    font-size: larger;
+    margin: 20px;
+}
+
+.ourteam{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 40px 20px 10px 20px;   
+    background-color: black;
+}
+
+.foto{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.culture1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+/* .investor{
+    background-color: rgb(29, 29, 29);
+} */
+
+/* .investor img{
+    border-radius: 20px;
+    border: 30px 30px 30px 30px;
+    background-color: white;
+} */
+
+.culture1 h1{
+    margin-bottom: 0%;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto img{
+    border-radius: 15px;
+    /* width: 280px;
+    height: 330px; */
+}
+
+.position{
+    font-size: 25px;
+}
+
+.trans1{
+    background-image:url("assets/stephen.PNG");
+    width: 280px;
+    height: 330px;
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.trans1:hover{
+    background-image: url("assets/stephen-desc.png");
+    width: 280px;
+    height: 330px;
+}
+
+.trans2{
+    background-image:url("assets/Armendo.PNG");
+    width: 280px;
+    height: 330px;
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.trans2:hover{
+    background-image: url("assets/armendo-desc.png");
+    width: 280px;
+    height: 330px;
+}
+
+.trans3{
+    background-image:url("assets/yesika.png");
+    width: 280px;
+    height: 330px;
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.trans3:hover{
+    background-image: url("assets/yesika-desc.png");
+    width: 280px;
+    height: 330px;
+}
+
+
+.text1{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.text2{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.cultureC{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 30px;
+}
+cultureC p{
+    padding-top: 10px;
+}
+#cul{
+    margin: 0%;
+    height: 7px;
+    background-color: white;
+    border: none;
+}
+
+#cul p{
+    font-size: 30px;
+}
+
+.easy{
+    background-color: #be0725;
+    border-radius: 20px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.hours{
+    background-color: #be0725;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.investor h1{
+    padding-top: 70px;
+    color: #be0725;
+    font-size: 30px;
+    padding-left: 130px;
+    text-shadow: 0 0 10px orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.investor img{
+    border-radius: 10px;
+    box-shadow: 10px 10px lightgrey;
+}
+
+.rel1, .rel2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rel2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#XXI{
+    padding-top: 30px;
+    height: 60px;
+    width: 250px;
+}
+
+#CGV{
+    height: 100px;
+    width: 200px;
+}
+
+#Cin{
+    height: 100px;
+    width: 200px;
+}
+
+#Star{
+    height: 150px;
+    width: 190px;
+}
+
+#Dis{
+    padding-top: 20px;
+    height: 120px;
+    width: 200px;
+}
+
+.exp{
+    display: flex;
+    justify-content: center;
+}
+.exp img{
+    margin-left: 3%;
+}
+.careers{
+    padding-top: 30px;
+    font-family: Arial;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.careers h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: #be0725;
+    color: white;
+    
+}
+
+.careers h3{
+    font-size: 30px;
+}
+
+.carDes{
+    display: flex;
+    padding-top: 40px;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-right: 3%;
+}
+.UI{
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+.DS{
+    padding: 10px;
+    text-align: left;
+    font-size:30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.jobs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sosmed{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ig img{
+    width: 150px;
+    height: 120px;
+}
+
+.fb img{
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (max-width:900px){
+    .button{
+        display: none;
+    }
+    .trans1, .trans2, .trans3{
+        width: 220px;
+        height: 270px;
+    }
+    .trans1:hover, .trans2:hover, .trans3:hover{
+        width: 220px;
+        height: 270px;
+    }
+    .foto{
+        justify-content: space-around;
+    }
+
+    .easy, .hours{
+        font-size: 13px;   
+    }
+    .exp img{
+        height: 350px;
+        width:  550px;
+    }
+    .carDes{
+        font-size: medium;
+    }
+    .UI, .DS, .UI h3, .DS h3{
+        font-size: medium;
+    }
+    .careers h1{
+        font-size: xx-large;
+    }
+    .founder h1{
+        font-size: larger;
+      }
+    .address h1{
+        font-size: larger;
+    }
+    .desc{
+        font-size: 22px;
+    }
+    .member p{
+        font-size: 19px;
+    }
+    .ourteam p{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,285 @@
+body{
+    margin: 0%;
+    background-image: url('assets/bg-subs.jpg');
+    background-size: contain;
+}
+
+#subs{
+    color: #be0725;
+}
+
+/* .names{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between;
+} */
+header{
+    /* background-image: url('assets/background.jpg'); */
+    background-color: black;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+.button a{
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+.button{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr{
+    margin: 0%;
+    height: 7px;
+    background-color: #be0725;
+    border: none;
+}
+
+/* DROP BOX */
+.drop-content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 2.8%;
+    padding-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+}
+
+.drop-content a{
+    /* padding-top: 30px; */
+    width: 140px;
+    padding: 10px 10px 10px 20px;
+    background-color: white;
+    color: black;
+}
+
+.drop-content a:hover{
+    background-color: #be0725;
+    color: white;
+}
+#bar1{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+.hover-me{
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.down{
+    font-family: Arial;
+}
+/* INI YANG BIKIN DROP */
+.down:hover .drop-content{
+    display: flex;
+    flex-direction: column;
+}
+/* DROP BOX END ===========================*/
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 63%;
+    padding-top: 40px;
+}
+
+.textField{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.textField p{
+    padding-left: 9%;
+    padding-bottom: 10px;
+}
+
+.error{
+    font-size: 15px;
+    color: red;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;    
+    font-family: Arial;
+    /* margin-top: 200px; */
+    background-color: white;
+    margin: 180px 23%;
+    border-radius: 20px;
+    border:  solid black;
+    border-width: 0px 2px 2px 2px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 10px 10px grey;
+}
+
+
+.terms{
+    display: flex;
+    margin: 0px 10px;
+    font-size: medium;
+}
+
+.textField input[type = "email"],.textField input[type= "password"]{
+    border: 2px solid black;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.title{
+    background-color: orange;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.title p{
+    padding-left: 20px;
+    margin: 5px;
+    font-size: xx-large;
+}
+
+.label p{
+    margin-top: 8%;
+    margin-bottom: 23%;
+    font-size: 28px;
+}
+
+.genderRadio{
+    font-size: 20px;
+}
+
+#combobox{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 9px;
+    width: 100%;  
+    font-size: 20px;
+}
+
+.terms{
+    font-size: 25px;
+}
+
+.subsribebtn{
+    color: white;
+    background-color: #be0725;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.error{
+    margin: 0px;
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sosmed{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ig img{
+    width: 150px;
+    height: 120px;
+}
+
+.fb img{
+    width: 75px;
+    height: 75px;
+}
+
+footer{
+    margin-top: 220px;
+}
+
+@media only screen and (max-width:900px){
+    .button{
+        display: none;
+    }
+    .label p, #email, #pass, .genderRadio, #combobox{
+        font-size: 20px;
+    }
+    .title p{
+        font-size: 22px;
+    }
+    .content{
+        width: 90%;
+    }
+    form{
+        margin: 180px 10%;
+    }
+    .textField{
+        margin-right: 50px;
+    }
+    .terms{
+        font-size: 18px;
+    }
+    .error{
+        font-size: 10px;
+    }
+    .subsribebtn{
+        font-size: medium;
+    }
+    .label p{
+        margin: 20px 0px 40px 0px;
+    }
+    .founder h1{
+        font-size: larger;
+    }
+    .address h1{
+        font-size: larger;
+    }
+}

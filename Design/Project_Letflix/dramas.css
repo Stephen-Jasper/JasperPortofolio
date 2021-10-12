@@ -1,0 +1,200 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+ 
+}
+
+.logo{
+  padding-top: 10px;
+  margin-left: 3%;
+  margin-right: 15%;
+}
+
+#dramap{
+  color: #be0725;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+.button a{
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.button{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* DROP BOX */
+.drop-content{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  padding-top: 2.8%;
+  padding-left: 2.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 20px;
+}
+
+.drop-content a{
+  /* padding-top: 30px; */
+  width: 140px;
+  padding: 10px 10px 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.drop-content a:hover{
+  background-color: #be0725;
+  color: white;
+}
+#bar1{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.hover-me{
+  padding-left: 50px;
+  color: white;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.down{
+  font-family: Arial;
+}
+/* INI YANG BIKIN DROP */
+.down:hover .drop-content{
+  display: flex;
+  flex-direction: column;
+}
+/* DROP BOX END ===========================*/
+
+hr{
+    margin: 0%;
+    height: 7px;
+    background-color: #be0725;
+    border: none;
+}
+
+content1 h1{
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+  padding-left: 12%;
+}
+.list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.list img{
+  width: 14%;
+  border-radius: 3%;
+}
+
+content2 img:hover{
+  width: 15%;
+}
+
+content2 h1{
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+  padding-left: 12%;
+}
+.list-kor{
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-kor img{
+  width: 14%;
+  border-radius: 3%;
+}
+.list-kor img:hover{
+  width: 200px;
+  height: 300px;
+}
+
+.list-thai{
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-thai img{
+  width: 14%;
+  border-radius: 3%;
+}
+.list-thai img:hover{
+  width: 200px;
+  height: 300px;
+}
+
+.list-anime{
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-anime img{
+  width: 14%;
+  border-radius: 3%;
+}
+.list-anime img:hover{
+  width: 200px;
+  height: 300px;
+}
+
+
+footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sosmed{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ig img{
+  width: 150px;
+  height: 120px;
+}
+
+.fb img{
+  width: 75px;
+  height: 75px;
+}
+
+@media only screen and (max-width:900px){
+  .button{
+    display: none;
+  }
+  .founder h1{
+    font-size: larger;
+  }
+  .address h1{
+    font-size: larger;
+  }
+  content1 h1, content2 h1{
+    font-size: larger;
+  }
+}

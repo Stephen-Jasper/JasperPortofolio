@@ -1,0 +1,286 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+
+header{
+    /* background-image: url('assets/background.jpg'); */
+    background-color: black;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    /* height: 500px; */
+}
+
+.navBar{
+    background-color: black;
+    display: flex;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+.button a{
+    color: white;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-right: 15%;
+}
+
+.button{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+hr{
+    margin: 0%;
+    height: 7px;
+    background-color: #be0725;
+    border: none;
+}
+
+/* DROP BOX */
+.drop-content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 2.8%;
+    padding-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+}
+
+.drop-content a{
+    /* padding-top: 30px; */
+    width: 140px;
+    padding: 10px 10px 10px 20px;
+    background-color: white;
+    color: black;
+}
+
+.drop-content a:hover{
+    background-color: #be0725;
+    color: white;
+}
+#bar1{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+.hover-me{
+    padding-left: 50px;
+    color: white;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.down{
+    font-family: Arial;
+}
+/* INI YANG BIKIN DROP */
+.down:hover .drop-content{
+    display: flex;
+    flex-direction: column;
+}
+/* DROP BOX END ===========================*/
+.title{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    animation: animate 1s ease-in-out infinite alternate;
+    margin-bottom: 40px;
+}
+
+.mid{
+    /* opacity: 0%;  */
+    background-color: black;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* padding-top: 1%; */
+    padding-bottom: 1%;
+    margin: 0% 5%;
+    /* position: relative;
+    align-content: center;
+    align-items: center;
+    align-content: center; */
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.buton{
+    align-self: center;
+
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+/* .mid{
+    position: relative;
+} */
+/* #bg{
+    width: 100px;
+    height: 100px;
+} */
+#bg{
+    border-radius: 30px;
+    /* height: 70%; */
+    /* width: 100%; */
+    justify-content: space-evenly;
+    position: relative;
+}
+/* #bg{
+    padding-bottom: 200px;
+} */
+
+h1{
+    position: relative;
+}
+
+.content{
+    background-color: black;
+}
+
+.desc1{
+    text-align: right;
+    padding-left: 8%;
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+}
+.content1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content1 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content1 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content2 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content2 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content2 h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.content h1{
+    animation: animate 1s ease-in-out infinite alternate;
+}
+.content h2{
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 20px white;
+    }
+    to{
+        text-shadow: 0 0 30px white,
+                    0 0 10px white;
+    }
+}
+
+.desc2{
+    text-align: left;
+    padding-right: 9%;
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+}
+.content2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#home{
+    color: #be0725;
+}
+
+.sosmed{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ig img{
+    width: 150px;
+    height: 120px;
+}
+
+.fb img{
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (max-width:900px){
+    .button{
+        display: none;
+    }
+    .mid img{
+        width: 100%;
+    }
+    .content1 img{
+        width: 200px;
+        height: 300px;
+    }
+    .content2 img{
+        width: 300px;
+        height: 200px;
+    }
+    .desc1, .desc2{
+        font-size: medium;
+    }
+    .founder h1, .address h1{
+        font-size: larger;
+    }
+    
+}

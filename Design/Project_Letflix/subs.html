@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subs.css">
+    <link rel="shortcut icon" href="assets/logo.png" /> <!--Title logo-->
+    <title>Subscription</title>
+    <script src="subs.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <!-- HAMBURGER -->
+            <div class="down">
+                <div class="hover-me">
+                    <!-- <b>Category</b> -->
+                    <div id="bar1"></div>
+                    <div id="bar1"></div>
+                    <div id="bar1"></div>
+                </div>
+                <div class="drop-content">
+                    <a href="home.html">Home</a>
+                    <a href="dramas.html">Dramas</a>
+                    <a href="plans.html">Plans</a>
+                    <a href="about.html">About</a>
+                    <a href="subs.html">Subscription</a>
+                </div>
+            </div>
+                    <!-- END HAMBURGER -->
+            <a href="home.html" class="logo">
+                <img src="assets/Logo.png" height="60px" width="130px">
+            </a>
+            <div class="button">
+                <a href="home.html" id="home">
+                    <b>Home </b>
+                </a>
+                <a href="dramas.html">
+                    <b>Dramas</b>
+                </a>
+                <a href="plans.html">
+                    <b>Plans</b>
+                </a>
+                <a href="about.html">
+                    <b>About</b>
+                </a>
+                <a href="subs.html" id="subs">
+                    <b>Subscription</b>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <form action="" onsubmit="return validate()">
+        <div class="title">
+            <p>Subscription</p>
+        </div>
+        <div class="content">
+            <div class="label">
+                <p>Email</p>
+                <p>Password</p>
+                <p>Gender</p>
+                <p>Choose plan</p>
+            </div>
+            <div class="textField">
+                <input placeholder="Must contain '@' & ends with '.com'" type="email" id="email" height="30px">
+                <p class="error" id="errorEmail"></p>
+
+                <input placeholder="At least 8 character" type="password" id="pass">
+                <p class="error" id="errorPass"></p>
+
+                <div class="genderRadio">
+                    <input type="radio" value="male" id="male" name="gender" class="gender">Male
+                    <input type="radio" value="female" id="female" name="gender" class="gender">Female
+                </div>
+                <p class="error" id="errorGender"></p>
+
+                <select id="combobox">
+                    <option value="none" selected>None</option>
+                    <option value="Silver" >Silver</option>
+                    <option value="Gold" >Gold</option>
+                    <option value="Diamond" >Diamond</option>
+                </select>
+                <p class="error" id="errorPlan"></p>
+            </div>
+        </div>
+        <div class="terms">
+            <input type="checkbox" id="check" value="none"> I agree with terms and conditions
+        </div>
+        <p class="error" id="errorTerms"></p>
+        <input class="subsribebtn" type="submit" value="Subscribe"> 
+    </form>
+
+    <footer>
+        <div class="founder">
+            <h1>Founder</h1>
+            <p>Armendo Chandra</p>
+            <p>Stephen Jasper</p>
+            <p>Yesika</p>
+        </div>
+    
+        <div class="address">
+            <h1>Address</h1>
+            <p>100 Int Street, New York, NY<br>Laure Avenue Suite 44</p>
+            <p>letflix@letflix.com</p>
+        </div>
+        <div class="sosmed">
+            <a href="https://instagram.com" target="blank" class="ig">
+                <img src="assets/ig.png" alt="">
+            </a>
+        
+            <a href="https://facebook.com" target="blank" class="fb">
+                <img src="assets/fb.png" alt="">
+            </a>
+        </div>
+    </footer>
+        
+</body>
+</html>
